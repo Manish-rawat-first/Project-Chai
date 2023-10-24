@@ -1,4 +1,6 @@
 function Super(){
-    return (()=>"Hello");
+    return (()=>{
+        return "Hello"
+    });
 }
 console.log(Super().apply())
