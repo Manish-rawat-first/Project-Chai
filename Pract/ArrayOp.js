@@ -14,3 +14,10 @@ let obj = {
 }
 console.log(Array.of(Object.keys(obj)));
 console.log(Array.from(Object.values(obj)))
+let ob = [12,34,21,11];
+Object.freeze(ob);
+Object.freeze(obj);
+obj.ap = "Moto";//Cannot be throw error but it is not add in object.
+console.log(obj)
+//ob.push(89); Error Throw.
+console.log(ob);
