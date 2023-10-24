@@ -2,3 +2,4 @@
 /*
 Multi Line Comments.
 */
+console.log(2+" "+6)
